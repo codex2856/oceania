@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Oceanía Studios</title>
+  <meta name="description" content="Make an appointment with Oceanía Studios. Makeup, beauty coaching and events in Hilversum &amp; Amsterdam.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="index.html" aria-label="Oceania Studios, home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Oceania Studios</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="glitter-bar.html">Glitter Bar</a></li><li><a href="photography-studio.html">Photography studio</a></li><li><a class="button button-small" href="contact.html" aria-current="page">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="contact" id="contact">
+      <div class="contact-copy">
+        <p class="kicker rv">Ready to feel confident?</p>
+        <h1 class="rv">Make an appointment</h1>
+        <p class="lead rv">Come for fresh, flawless makeup and personalized beauty advice. Send us a message and let’s find the perfect time.</p>
+        <p class="rv"><a href="tel:+31617445079">+31 6 17445079</a><br><a href="mailto:Oceania.studios12@gmail.com">Oceania.studios12@gmail.com</a></p>
+      </div>
+      <!-- TODO before launch: replace the action with a real form endpoint (Formspree, Web3Forms...). -->
+      <form class="contact-form rv" action="https://formspree.io/f/REPLACE_ME" method="post">
+        <h2>Fast-track your project</h2>
+        <label for="email">Your email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button class="button" type="submit">Submit</button>
+        <p class="muted small">We reply within 24 hours.</p>
+      </form>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title" class="rv">Frequently asked questions</h2>
+      <details class="rv"><summary>What services do you offer, and how do I ask about prices?</summary><p>Makeup services, beauty coaching, and private classes are listed on the Services page. Message us and we’ll prepare a personalized quote.</p></details><details class="rv"><summary>How do I book?</summary><p>A deposit is required to secure your date (40% of the total cost on the current site; the Terms say 50%, see README). The rest is paid on the day of the appointment.</p></details><details class="rv"><summary>Can I reschedule?</summary><p>Yes, if you ask within the same month and the new date is available. Deposits are non-refundable for cancellations or no-shows.</p></details><details class="rv"><summary>Do you offer on-location makeup?</summary><p>Yes, at your home or at the event venue (events, photo shoots, and weddings) anywhere in the Netherlands. Travel costs may apply.</p></details>
+    </section>
+
+    <section class="split">
+      <!-- TODO: embed her Google Maps iframe here (copy it from the Framer site) -->
+      <div class="ph ph-map rv" role="img" aria-label="Placeholder: Google Map" data-label="Google Map"></div>
+      <div class="split-copy">
+        <h2 class="rv">How to get here</h2>
+        <p class="lead rv">Parking is available at the back, and there are bike racks at the entrance.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Oceania Studios</span>
+      </a>
+      <p>Where beauty meets confidence.</p>
+      <p class="muted">Makeup • Courses • Events • Personal Shopping Experience</p>
+      <!-- TODO: replace with her real Instagram and Facebook profile URLs -->
+      <p class="social"><a href="https://linktr.ee/oceania.studios">Instagram &amp; Facebook via Linktree</a></p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="glitter-bar.html">Glitter Bar</a></li>
+        <li><a href="photography-studio.html">Photography studio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="footer-contact">
+      <p><a href="tel:+31617445079">+31 6 17445079</a></p>
+      <p><a href="mailto:Oceania.studios12@gmail.com">Oceania.studios12@gmail.com</a></p>
+    </div>
+    <div class="footer-legal">
+      <p class="muted">Copyright © 2025 Oceania Studios. All rights reserved.</p>
+      <p><a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-conditions.html">Terms &amp; Conditions</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
