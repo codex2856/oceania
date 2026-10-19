@@ -438,3 +438,22 @@ main > .panel {
   .included { grid-template-columns: repeat(2, 1fr); }
   .timeline { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* ---------- Dark navy theme (Photography studio, as on her current site) ---------- */
+body.dark { background: #131b42; color: #e9ebfb; }
+body.dark h1, body.dark h2, body.dark h3 { color: #fff; }
+body.dark .kicker, body.dark .muted { color: rgba(233, 235, 251, 0.7); }
+body.dark .lead { color: #e9ebfb; }
+body.dark main a:not(.button) { color: #99e0e8; }
+body.dark main .button { background: #99e0e8; color: #131b42; }
+body.dark main .button:hover { background: #fff; }
+body.dark .card, body.dark .quote, body.dark .timeline li { color: var(--navy); }
+body.dark .card h3, body.dark .quote blockquote, body.dark .timeline h3 { color: var(--ink); }
+body.dark main > .panel h2, body.dark main > .panel h3 { color: var(--ink); }
+body.dark main > .panel { color: var(--navy); }
+body.dark .included li { color: var(--navy); }
+body.dark .stat strong { color: #99e0e8; }
+body.dark .stat span { color: rgba(233, 235, 251, 0.75); }
+body.dark .site-footer { background: #0c1233; color: #e9ebfb; }
+body.dark .site-footer .brand { color: #fff; }
+body.dark .site-footer a { color: #e9ebfb; }
