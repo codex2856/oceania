@@ -7,129 +7,109 @@
   <meta name="description" content="Rent a fully equipped photo, video and podcast studio with professional lighting and a makeup area in the Netherlands.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="dark">
+<body class="photo">
 
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="bar">
       <a class="brand" href="index.html" aria-label="Oceania Studios, home">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>Oceania Studios</span>
+        <span class="brand-mark" aria-hidden="true"></span><span>Oceania Studios</span>
       </a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
-      <nav id="main-nav" class="main-nav" aria-label="Main">
-        <ul>
-          <li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="glitter-bar.html">Glitter Bar</a></li><li><a href="photography-studio.html" aria-current="page">Photography studio</a></li><li><a class="button button-small" href="contact.html">Contact us</a></li>
-        </ul>
-      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu"><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Main"><ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="glitter-bar.html">Glitter Bar</a></li><li><a href="photography-studio.html" aria-current="page">Photography studio</a></li><li><a class="button button-nav" href="contact.html">Contact Us</a></li></ul></nav>
     </div>
   </header>
-
   <main id="main">
 
-    <section class="page-hero">
-      <p class="kicker rv">Photography studio</p>
-      <h1 class="rv">A full studio for photo, video, and podcast.</h1>
-      <p class="lead rv">Book your session and create with everything ready for you.</p>
-      <a class="button rv" href="contact.html">Book the studio</a>
+    <section class="hero-photo-full">
+      <div class="photo-bg" role="img" aria-label="Placeholder: studio photo" data-label="Studio photo"></div>
+      <div class="photo-overlay"></div>
+      <div class="blur-box"><h1 class="ap">Photography studio</h1></div>
     </section>
 
-    <section class="split">
-      <div class="ph ph-tall rv" role="img" aria-label="Placeholder: Studio photo" data-label="Studio photo"></div>
-      <div class="split-copy">
-        <p class="kicker rv">Your all-in-one studio</p>
-        <h2 class="rv">Arrive, create, and leave with results.</h2>
-        <p class="lead rv">Rent a fully equipped studio with professional lighting, multiple backdrops, a makeup area, and a cozy podcast corner. Made for photographers, influencers, entrepreneurs, and creative teams.</p>
+    <section class="lav-band">
+      <h3 class="ap">A complete studio for photo, video, and podcast production. Book your session and create with everything ready for you.</h3>
+    </section>
+
+    <section class="intro-split">
+      <div class="is-photo ap"><div class="ph " role="img" aria-label="Placeholder: Studio photo" data-label="Studio photo" style="aspect-ratio:560/360"></div></div>
+      <div class="is-text ap"><h3>Your all-in-one studio for content creation.</h3>
+        <p>Rent a fully equipped studio with professional lighting, multiple backdrops, a makeup area, and a cozy podcast corner. Made for photographers, influencers, entrepreneurs, and creative teams.</p>
+        <div><a class="button " href="contact.html">Contact Us</a></div></div>
+    </section>
+
+    <section class="featured">
+      <div class="packages">
+        <div class="title-block left"><h2 class="ap">Photo, Video &amp; Podcast Studio Services</h2></div>
+
+        <article class="p-row ap">
+          <div class="p-img"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:627/334"></div></div>
+          <div class="p-text"><span class="num">01</span><h4>Photography Studio Rental</h4><p>A fully equipped space with professional lighting, backdrops, reflectors, and C-stands, for portraits, products, and campaigns.</p></div>
+        </article>
+
+        <article class="p-row flip ap">
+          <div class="p-img"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:627/334"></div></div>
+          <div class="p-text"><span class="num">02</span><h4>Video Content Studio</h4><p>Create high-quality video content with controlled lighting and clean backdrops for reels, tutorials, commercial content, and brand videos.</p></div>
+        </article>
+
+        <article class="p-row ap">
+          <div class="p-img"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:627/334"></div></div>
+          <div class="p-text"><span class="num">03</span><h4>Podcast Recording Space</h4><p>A cozy, quiet setup ideal for solo or duo podcasts.</p></div>
+        </article>
+        <div class="p-included ap"><h3>What’s Included in Oceania Photo Studio Rental</h3><ul class="incl"><li>Professional lighting (LED panels, softboxes, octabox)</li><li>C-stands and light stands</li><li>Background system with multiple paper colors</li><li>Curved reflector (eyelighter)</li><li>Snoot with honeycomb</li><li>Makeup chair and set furniture</li><li>Large mirror and styling area</li><li>Access to the Oceania Studios makeup area</li><li>Podcast space (on request)</li><li>Music allowed (moderate volume)</li></ul></div>
+      </div>
+
+      <div class="portfolio-navy">
+        <div class="title-block left"><p class="eyebrow ap on-dark">Portfolio</p></div>
+        <ul class="gallery"><li class="tile t1 ap"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:327/360"></div></li><li class="tile t2 ap"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:327/360"></div></li><li class="tile t3 ap"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:327/360"></div></li><li class="tile t2 ap"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:327/360"></div></li><li class="tile t2 ap"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:327/360"></div></li><li class="tile t1 ap"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:327/360"></div></li><li class="tile t3 ap"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:327/360"></div></li><li class="tile t1 ap"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:327/360"></div></li><li class="tile t2 ap"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:327/360"></div></li></ul>
       </div>
     </section>
 
-    <section class="services-cards" aria-label="Studio uses">
-      <article class="card rv">
-        <div class="ph ph-card" role="img" aria-label="Placeholder: Photo" data-label="Photo"></div>
-        <h3>Photo studio rental</h3>
-        <p>Equipped space with lighting, backdrops, reflectors, and C-stands for portraits, products, and campaigns.</p>
-      </article>
-      <article class="card rv" style="--i:1">
-        <div class="ph ph-card" role="img" aria-label="Placeholder: Photo" data-label="Photo"></div>
-        <h3>Video content studio</h3>
-        <p>Controlled lighting and clean backdrops for reels, tutorials, commercial content, and brand videos.</p>
-      </article>
-      <article class="card rv" style="--i:2">
-        <div class="ph ph-card" role="img" aria-label="Placeholder: Photo" data-label="Photo"></div>
-        <h3>Podcast recording space</h3>
-        <p>A calm setting for solo or duo podcasts.</p>
-      </article>
+    <section class="bridal">
+      <div class="bridal-photo"><div class="ph " role="img" aria-label="Placeholder: Wedding photo" data-label="Wedding photo" style="aspect-ratio:997/850"></div></div>
+      <div class="bridal-strip"></div>
+      <div class="bridal-box ap"><h2>Helping Couples Bring To Life Their Wedding Dreams</h2>
+        <p>Weddings, engagements, and special days, captured with care.</p>
+        <div><a class="button " href="contact.html">Contact Us</a></div></div>
     </section>
 
-    <section class="values panel">
-      <h2 class="rv">What the studio rental includes</h2>
-      <ul class="included"><li class="rv"><span class="dot" aria-hidden="true"></span><span>Professional lighting (LED panels, softboxes, octabox)</span></li><li class="rv" style="--i:1"><span class="dot" aria-hidden="true"></span><span>C-stands and light stands</span></li><li class="rv"><span class="dot" aria-hidden="true"></span><span>Colored paper backdrop system</span></li><li class="rv" style="--i:1"><span class="dot" aria-hidden="true"></span><span>Curved reflector (eyelighter)</span></li><li class="rv"><span class="dot" aria-hidden="true"></span><span>Snoot with honeycomb grid</span></li><li class="rv" style="--i:1"><span class="dot" aria-hidden="true"></span><span>Makeup chair and set furniture</span></li><li class="rv"><span class="dot" aria-hidden="true"></span><span>Large mirror and styling area</span></li><li class="rv" style="--i:1"><span class="dot" aria-hidden="true"></span><span>Access to the Oceania Studios makeup area</span></li><li class="rv"><span class="dot" aria-hidden="true"></span><span>Podcast space (on request)</span></li><li class="rv" style="--i:1"><span class="dot" aria-hidden="true"></span><span>Music allowed (moderate volume)</span></li></ul>
-    </section>
-
-    <section class="stats" aria-label="Numbers">
+    <section class="proof">
       <!-- TODO: confirm these numbers with the client before launch -->
-      <div class="stat rv"><strong>12</strong><span>years of experience</span></div>
-      <div class="stat rv" style="--i:1"><strong>10,000</strong><span>photos delivered</span></div>
-      <div class="stat rv" style="--i:2"><strong>300</strong><span>events covered</span></div>
-      <div class="stat rv" style="--i:3"><strong>6</strong><span>awards received</span></div>
-    </section>
-
-    <section class="split split-flip">
-      <div class="split-copy">
-        <p class="kicker rv">Weddings</p>
-        <h2 class="rv">Helping couples bring their wedding dreams to life.</h2>
-        <a class="button rv" href="contact.html">Tell us about your day</a>
+      <div class="proof-grid">
+        <div class="stat ap"><strong data-count="12">12</strong><span>Years Experience</span></div>
+        <div class="stat ap"><strong data-count="10" data-suffix="k">10k</strong><span>Photos Delivered</span></div>
+        <div class="stat ap"><strong data-count="300">300</strong><span>Events Captured</span></div>
+        <div class="stat ap"><strong data-count="6">6</strong><span>Awards Received</span></div>
       </div>
-      <div class="ph ph-tall rv" role="img" aria-label="Placeholder: Wedding photo" data-label="Wedding photo"></div>
-    </section>
-
-    <section class="gallery" aria-labelledby="g-title">
-      <h2 id="g-title" class="rv">Portfolio</h2>
-      <ul class="gallery-grid"><li class="rv"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:1"></div></li><li class="rv"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:1"></div></li><li class="rv"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:1"></div></li><li class="rv"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:1"></div></li><li class="rv"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:1"></div></li><li class="rv"><div class="ph " role="img" aria-label="Placeholder: Photo" data-label="Photo" style="aspect-ratio:1"></div></li></ul>
-    </section>
-    <section class="cta">
-      <h2 class="rv">Ready to book the studio?</h2>
-      <p class="lead rv">Send us your date and what you’d like to create.</p>
-      <a class="button rv" href="contact.html">Contact us</a>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="footer-brand">
-      <a class="brand" href="index.html">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>Oceania Studios</span>
-      </a>
-      <p>Where beauty meets confidence.</p>
-      <p class="muted">Makeup • Courses • Events • Personal Shopping Experience</p>
-      <!-- TODO: replace with her real Instagram and Facebook profile URLs -->
-      <p class="social"><a href="https://linktr.ee/oceania.studios">Instagram &amp; Facebook via Linktree</a></p>
-    </div>
-    <nav class="footer-nav" aria-label="Footer">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="glitter-bar.html">Glitter Bar</a></li>
-        <li><a href="photography-studio.html">Photography studio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="footer-contact">
-      <p><a href="tel:+31617445079">+31 6 17445079</a></p>
-      <p><a href="mailto:Oceania.studios12@gmail.com">Oceania.studios12@gmail.com</a></p>
-    </div>
-    <div class="footer-legal">
-      <p class="muted">Copyright © 2025 Oceania Studios. All rights reserved.</p>
-      <p><a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-conditions.html">Terms &amp; Conditions</a></p>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>Oceania Studios</span></a>
+        <p class="tagline">Where beauty meets confidence.</p>
+        <p class="small">Makeup • Courses • Events • Personal Shopping Experience</p>
+        <!-- TODO: replace with her real Instagram and Facebook profile URLs -->
+        <p class="social"><a href="https://linktr.ee/oceania.studios">Facebook</a> · <a href="https://linktr.ee/oceania.studios">Instagram</a></p>
+      </div>
+      <nav class="footer-menu" aria-label="Footer"><ul>
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li><li><a href="glitter-bar.html">Glitter Bar</a></li>
+        <li><a href="contact.html">Contact</a></li></ul></nav>
+      <div class="footer-contact">
+        <p><a href="tel:+31617445079">+31 6 17445079</a></p>
+        <p><a href="mailto:Oceania.studios12@gmail.com">Oceania.studios12@gmail.com</a></p>
+      </div>
+      <div class="footer-legal">
+        <p class="small">Copyright © 2025 Oceania Studios. All rights reserved.</p>
+        <p class="small"><a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-conditions.html">Terms &amp; Conditions</a></p>
+      </div>
     </div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>

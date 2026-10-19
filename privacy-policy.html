@@ -7,90 +7,67 @@
   <meta name="description" content="How Oceanía Studios collects, uses and protects your personal data.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="legal-page">
 
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="bar">
       <a class="brand" href="index.html" aria-label="Oceania Studios, home">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>Oceania Studios</span>
+        <span class="brand-mark" aria-hidden="true"></span><span>Oceania Studios</span>
       </a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
-      <nav id="main-nav" class="main-nav" aria-label="Main">
-        <ul>
-          <li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="glitter-bar.html">Glitter Bar</a></li><li><a href="photography-studio.html">Photography studio</a></li><li><a class="button button-small" href="contact.html">Contact us</a></li>
-        </ul>
-      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu"><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Main"><ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="glitter-bar.html">Glitter Bar</a></li><li><a href="photography-studio.html">Photography studio</a></li><li><a class="button button-nav" href="contact.html">Contact Us</a></li></ul></nav>
     </div>
   </header>
-
   <main id="main">
 
     <article class="legal">
       <h1>Privacy Policy</h1>
       <!-- TODO: summarized from the Framer page; paste her exact wording before launch -->
       <p class="lead">Oceania Studios is committed to protecting the personal data and the right to privacy of everyone who contacts us.</p>
-
       <h2>Information we collect</h2>
       <p>We collect personal information you provide voluntarily when you register, show interest in our services, or contact us. This may include your name and contact details (email, address, phone number), login credentials such as passwords, and payment data such as card number and security code if you make a purchase.</p>
-
       <h2>How we use your information</h2>
       <p>We use your information to create accounts, send administrative information, manage orders and services, respond to inquiries, send marketing communications, and for other business purposes. We rely on legitimate interests, performance of a contract, consent, and legal obligations.</p>
-
       <h2>Sharing your information</h2>
       <p>We only share your information with your consent, to comply with the law, to provide services, to protect our rights, or to fulfill business obligations.</p>
-
       <h2>Security of your information</h2>
       <p>We apply administrative, technical, and physical safeguards, but no measure is completely foolproof.</p>
-
       <h2>Retention of your information</h2>
       <p>We keep your data only as long as needed for the purposes described here, unless the law requires a longer period.</p>
-
       <h2>Your privacy rights</h2>
       <p>In regions such as the European Economic Area, you may request access to, a copy of, rectification, erasure, or restriction of the processing of your data and, where applicable, data portability.</p>
-
       <h2>Contact</h2>
       <p>Questions? Write to <a href="mailto:Oceania.studios12@gmail.com">Oceania.studios12@gmail.com</a>.</p>
     </article>
   </main>
 
   <footer class="site-footer">
-    <div class="footer-brand">
-      <a class="brand" href="index.html">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>Oceania Studios</span>
-      </a>
-      <p>Where beauty meets confidence.</p>
-      <p class="muted">Makeup • Courses • Events • Personal Shopping Experience</p>
-      <!-- TODO: replace with her real Instagram and Facebook profile URLs -->
-      <p class="social"><a href="https://linktr.ee/oceania.studios">Instagram &amp; Facebook via Linktree</a></p>
-    </div>
-    <nav class="footer-nav" aria-label="Footer">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="glitter-bar.html">Glitter Bar</a></li>
-        <li><a href="photography-studio.html">Photography studio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="footer-contact">
-      <p><a href="tel:+31617445079">+31 6 17445079</a></p>
-      <p><a href="mailto:Oceania.studios12@gmail.com">Oceania.studios12@gmail.com</a></p>
-    </div>
-    <div class="footer-legal">
-      <p class="muted">Copyright © 2025 Oceania Studios. All rights reserved.</p>
-      <p><a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-conditions.html">Terms &amp; Conditions</a></p>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>Oceania Studios</span></a>
+        <p class="tagline">Where beauty meets confidence.</p>
+        <p class="small">Makeup • Courses • Events • Personal Shopping Experience</p>
+        <!-- TODO: replace with her real Instagram and Facebook profile URLs -->
+        <p class="social"><a href="https://linktr.ee/oceania.studios">Facebook</a> · <a href="https://linktr.ee/oceania.studios">Instagram</a></p>
+      </div>
+      <nav class="footer-menu" aria-label="Footer"><ul>
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li><li><a href="glitter-bar.html">Glitter Bar</a></li>
+        <li><a href="contact.html">Contact</a></li></ul></nav>
+      <div class="footer-contact">
+        <p><a href="tel:+31617445079">+31 6 17445079</a></p>
+        <p><a href="mailto:Oceania.studios12@gmail.com">Oceania.studios12@gmail.com</a></p>
+      </div>
+      <div class="footer-legal">
+        <p class="small">Copyright © 2025 Oceania Studios. All rights reserved.</p>
+        <p class="small"><a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-conditions.html">Terms &amp; Conditions</a></p>
+      </div>
     </div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
